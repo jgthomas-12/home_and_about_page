@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.main-header {
+  background-color: #0994b0;
+  padding: 30px;
+}
+
+.main-header ul {
+  background-color: #0994b0;
+  display: flex;
+  justify-content: space-between;
+  width: 66%;
+  margin: 0 auto;
+}
+
+.main-header ul > li {
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
